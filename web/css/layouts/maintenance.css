@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	background: #DC062D;
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+.drac-button {
+	display: block;
+	position: relative;
+	background: #477BBE;
+	border: 2px solid transparent;
+	border-radius: 50px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	line-height: 50px;
+	font-size: 18px;
+	white-space: nowrap;
+	margin-top: 25px;
+	transition: background .5s ease;
+	overflow: hidden;
+	mask-image: -webkit-radial-gradient(white, black);
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+.drac-button:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: #FBCE08;
+	bottom: -25px;
+	left: 0;
+	border: 2px solid #D92027;
+	transform: translateX(-60px) rotate(45deg);
+	transition: transform .5s ease;
+}
+
+.drac-button:hover {
+	background: transparent;
+    border-color: #477BBE;
+    text-decoration: none;
+    color: #477BBE;
+}
+
+.drac-button:hover:before {
+	transform: translateX(300px) rotate(45deg);
+}

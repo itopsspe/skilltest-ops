@@ -1,0 +1,44 @@
+.membership-section {
+    padding: 150px 35px 150px 35px;
+}
+
+@media (min-width:992px) {
+    .membership-section {
+        padding: 150px 120px 150px 120px;
+    }
+}
+
+.membership-section p {
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+}
+
+#w0 label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #555;
+}
+
+#w0 input[type="text"],
+#w0 input[type="password"],
+#w0 input[type="number"],
+#w0 input[type="file"],
+#w0 textarea,
+#w0 select {
+    border: 2px solid #aaa;
+    font-size: 14px;
+}
+
+#w0 .textarea-input-wrapper {
+    height: 165px;
+}
+
+.membership-note {
+    color: #DC062D;
+    font-size: 13px;
+}
+
+.membership-note td {
+    padding: 5px;
+}

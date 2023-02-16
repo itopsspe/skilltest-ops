@@ -1,0 +1,60 @@
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #4E5CCF;
+    border-color: #4E5CCF !important;
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th {
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    vertical-align: middle;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.table-bordered>thead>tr>th>a,
+.table-bordered>tbody>tr>th>a,
+.table-bordered>tfoot>tr>th>a {
+    color: #FFFFFF;
+}
+
+.table-bordered>thead>tr>td>input {
+    border-radius: 25px !important;
+    border: none !important;
+    color: #000000;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-bordered>thead>tr>td>input::placeholder {
+    color: #4E5CCF;
+    opacity: 1;
+}
+
+.table-bordered>thead>tr>td>input:-ms-input-placeholder {
+    color: #4E5CCF;
+}
+
+.table-bordered>thead>tr>td>input::-ms-input-placeholder {
+    color: #4E5CCF;
+}
+
+.table-bordered>thead>tr>td,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tbody>tr>td {
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    vertical-align: middle;
+    font-size: 11px;
+}

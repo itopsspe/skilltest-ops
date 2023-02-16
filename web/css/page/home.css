@@ -1,0 +1,20 @@
+.section-banner {
+    min-height: calc(100vh - 203px);
+    padding-top: 100px;
+}
+
+.section-banner img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media (min-width:1150px) {
+    .section-banner {
+        min-height: calc(100vh - 160px);
+        padding-top: 80px;
+    }
+}

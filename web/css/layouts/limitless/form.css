@@ -1,0 +1,72 @@
+#w0,
+#w1 {
+    padding-top: 10px;
+}
+
+#w0 .text-input-wrapper,
+#w1 .text-input-wrapper {
+    height: 110px;
+}
+
+#w0 input[type="text"],
+#w0 input[type="password"],
+#w0 input[type="number"],
+#w1 input[type="text"],
+#w1 input[type="password"],
+#w1 input[type="number"] {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    padding: 22px 12px;
+    border-radius: 5px;
+    border: 2px solid #bbb;
+}
+
+#w0 input[type="file"],
+#w1 input[type="file"] {
+    width: 100%;
+    height: 48px;
+    line-height: 30px;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: 2px solid #bbb;
+}
+
+#w0 textarea,
+#w1 textarea {
+    width: 100% !important;
+    line-height: 30px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 2px solid #bbb;
+}
+
+#w0 select,
+#w1 select {
+    width: 100% !important;
+    height: 48px;
+    line-height: 20px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 2px solid #bbb;
+}
+
+#w0 label,
+#w1 label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.form-control:disabled {
+    background: #ccc !important;
+    cursor: not-allowed;
+}
+
+.help-block {
+    margin-top: 6px;
+    padding-left: 5px;
+    color: #EC4561 !important;
+    font-size: 11px;
+}
